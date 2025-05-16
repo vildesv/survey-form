@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Feedback Survey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Community Feedback Survey</h1>
+    <p id="description">We value your input! Please take a moment to share your thoughts.</p>
+
+    <form id="survey-form">
+      <!-- Name -->
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+      <!-- Email -->
+      <label id="email-label" for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+      <!-- Age -->
+      <label id="number-label" for="number">Age:</label>
+      <input type="number" id="number" name="age" min="10" max="120" placeholder="Enter your age" required />
+
+      <!-- Role Dropdown -->
+      <label for="dropdown">Your Role:</label>
+      <select id="dropdown" name="role">
+        <option value="">-- Select your role --</option>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+      </select>
+
+      <!-- Satisfaction Radio Buttons -->
+      <fieldset>
+        <legend>How satisfied are you with our community platform?</legend>
+        <label class="answers"><input type="radio" name="satisfaction" value="very-satisfied" /> Very Satisfied</label><br/>
+        <label class="answers"><input type="radio" name="satisfaction" value="satisfied" /> Satisfied</label><br/>
+        <label class="answers"><input type="radio" name="satisfaction" value="not-satisfied" /> Not Satisfied</label>
+      </fieldset>
+
+      <!-- Interests Checkboxes -->
+      <fieldset>
+        <legend>Which topics interest you? (Select all that apply)</legend>
+        <label class="answers"><input type="checkbox" value="tech" /> Technology</label><br/>
+        <label class="answers"><input type="checkbox" value="art" /> Art</label><br/>
+        <label class="answers"><input type="checkbox" value="science" /> Science</label><br/>
+        <label class="answers"><input type="checkbox" value="sports" /> Sports</label>
+      </fieldset>
+
+      <!-- Additional Comments -->
+      <label for="comments">Any additional comments?</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="We’d love to hear more..."></textarea>
+
+      <!-- Submit -->
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

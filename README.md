@@ -1,6 +1,6 @@
 ## Survey Form
-Throughout the Responsive Web Design course, there are some projects that is required to complete in order to earn the certification.
-This is the first required project and for this project, I built a [survey form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) to collect data from users.
+Throughout the [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course, there are some projects that is required to complete in order to earn the certification.
+This is the first required project and for this project, I built a survey form to collect data from users.
 
 ___
 
@@ -28,3 +28,4 @@ Fulfill the user stories and pass all the tests below to complete this project. 
 
 **Note**: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
 
+[Responsive Web Design - Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)

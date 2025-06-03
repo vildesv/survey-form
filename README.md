@@ -1,5 +1,5 @@
 ## Survey Form
-Throughout the [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course, there are some projects that is required to complete in order to earn the certification.
+Throughout the Responsive Web Design course, there are some projects that is required to complete in order to earn the certification.
 This is the first required project and for this project, I built a survey form to collect data from users.
 
 ___
